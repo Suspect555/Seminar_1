@@ -19,7 +19,7 @@ else
 /*Задача No3. Напишите программу, которая будет выдавать название дня недели по заданному номеру.
 3 -> Среда
 5 -> Пятница*/
-
+/*
 Console.WriteLine("Enter number of day");
 
 int a = int.Parse(Console.ReadLine());
@@ -52,3 +52,8 @@ if (a == 7)
 {
     Console.WriteLine("Sunday");
 }
+if (a<1|a>7) 
+{ 
+    Console.WriteLine("try again");
+}
+*/
