@@ -71,3 +71,32 @@ while (a <= N)
        a = a + 1;
 }
 */
+/*Задача No7. Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает последнюю цифру этого числа.
+456 -> 6 
+782 -> 2
+918 -> 8*/
+//My solution
+/*int a = int.Parse(Console.ReadLine());
+
+int b = a % 10;
+
+Console.WriteLine(b);
+*/
+//Seminar solution
+
+int a = int.Parse(Console.ReadLine());
+
+if (a<1000&a>99)
+{
+    Console.WriteLine(a%10);
+}
+else
+{
+    Console.WriteLine("Enter correct number");
+}
+
+
+
+
+
+
