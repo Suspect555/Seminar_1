@@ -13,7 +13,7 @@ if (result == 0)
 }
 else
 {
-    Console.WriteLine($"{number1} , {number2} -> Не кратно, остаток {result}");
+    Console.WriteLine($"{number1} , {number2} -> Не кратно, остаток{result}");
 }
 
 
